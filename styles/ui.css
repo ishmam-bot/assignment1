@@ -1,5 +1,150 @@
+/* font */
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /* Navigation/title */
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
 }
+
+.nav-title{
+
+    font-weight: 900;
+    font-size: 34px;
+
+}
+
+/* styles */
+
+li{
+    list-style: none;
+}
+
+body{
+    margin: 0 auto;
+}
+
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.logo-text{
+
+    color: brown;
+
+}
+
+.button {
+
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.text-front{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.text-main{
+    font-size: 42px;
+    font-weight: bold;
+}
+.text2{
+    font-size: 24px;
+    font-weight: 400;
+}
+/* action section */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1140px;
+    align-items: center;
+}
+
+.main-pic{
+
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;    
+}
+
+/* productive users section */
+
+.users-bg-color{
+    background-color: #E5E7FF;
+    border-radius: 24px;
+
+    }
+
+    .users{
+        text-align: center;
+        align-items: center;
+        padding: 50px, 142px;
+    }
+
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+.user-number-font{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.user-number-font2{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.users-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+
+
