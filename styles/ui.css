@@ -75,6 +75,12 @@ header{
 
 }
 
+/* button-hover-animation */
+.button:hover {
+  background-color: rgb(241, 79, 106);
+  transform: scale(1.05);
+}
+
 .text-front{
     font-size: 65px;
     font-weight: bold;
