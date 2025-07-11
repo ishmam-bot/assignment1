@@ -287,7 +287,7 @@ footer .footer-column .footer-form textarea{
   display: flex;
   width: 497px;
   padding: 10px 20px;
-  margin-bottom: 19px;
+  margin-bottom: 4px;
   border-color: blueviolet;
 }
 
@@ -299,6 +299,7 @@ footer .footer-column .footer-form textarea{
 
 .submit-button{
   margin-bottom: 27px ;
+  width: 530px;
 }
 
 /* end-text */
