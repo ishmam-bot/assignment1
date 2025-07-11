@@ -1,5 +1,10 @@
 /* font */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -16,15 +21,15 @@
 
 nav{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px 150px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
 }
 
 .nav-title{
 
     font-weight: 900;
-    font-size: 34px;
+    font-size: 54px;
 
 }
 
@@ -35,24 +40,32 @@ li{
 }
 
 body{
-    margin: 0 auto;
+    height: 100%;
 }
 
 header{
     background-image: url('../Assets/Hero-bg.png');
-    background-size: cover;
-    margin: 0 auto;
+  background-size: auto;
+  height: 100vh;
+  
+  display: flex;       
+  flex-direction: column;
 }
 
 .logo-text{
 
-    color: brown;
+    color: rgb(241, 79, 106);
 
+}
+
+.logo-text2{
+  color: #4E47FF;
 }
 
 .button {
 
-    background-color: #4E47FF;
+  margin-top: 17px;  
+  background-color: #4E47FF;
     font-size: 16px;
     font-weight: 700;
     color: white;
@@ -71,10 +84,9 @@ header{
 /* banner styles */
 
 .banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
 }
 
 /* main styles */
@@ -87,6 +99,7 @@ main{
 .text-main{
     font-size: 42px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .text2{
     font-size: 24px;
@@ -113,6 +126,7 @@ main{
 .users {
     text-align: center;
     padding: 80px 50px;
+    margin-top: 116px;
   }
 
   .users-bg-color {
@@ -175,13 +189,14 @@ main{
 .review-title {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 0;
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .review-description {
   color: #333;
   font-size: 16px;
-  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 .reviewer-image {
@@ -221,7 +236,119 @@ main{
   align-items: center;
 }
 
+/* footer */
 
+.footer-column{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-title{
+  font-size: 67px;
+  font-weight: bold;
+}
+
+.footer-title2{
+  color: #4E47FF;
+}
+
+footer{
+  background-color: #E5E7FF ;
+  border-radius: 10px;
+  padding: 80px 50px;
+}
+
+
+
+footer .footer-column .footer-form input[type="email"], footer .footer-column .footer-form input[type="name"]{
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  width: 497px;
+  padding: 10px 20px;
+  margin-bottom: 19px;
+  border-color: blueviolet;
+
+
+}
+
+footer .footer-column .footer-form textarea{
+  height: 136px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  width: 497px;
+  padding: 10px 20px;
+  margin-bottom: 19px;
+  border-color: blueviolet;
+}
+
+.form-text{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.submit-button{
+  margin-bottom: 27px ;
+}
+
+/* end-text */
+
+.end-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 104px;
+  gap: 17px;
+}
+
+.end-para{
+  text-align: center;
+  font-size: 19px;
+  font-weight: normal;
+  color: #8987A1;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.end-color{
+  color: rgb(241, 79, 106);;
+}
+
+.nav-title1{
+
+    font-weight: 900;
+    font-size: 97px;
+
+}
+
+.logo-text1{
+
+    color: rgb(241, 79, 106);
+
+}
+
+.logo-text12{
+  color: #4E47FF;
+}
+
+/* links */
+
+.links{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  gap: 34px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: normal;
+
+}
 
 
 
